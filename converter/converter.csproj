@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img\smile.png" />
+    <None Remove="img\table.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\smile.png" />
+    <Resource Include="img\table.png" />
+  </ItemGroup>
+
+</Project>
